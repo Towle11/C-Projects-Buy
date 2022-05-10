@@ -1,0 +1,214 @@
+.container {
+    width:  100%;
+    min-height: 100vh   ;
+    padding-right: 8%;    padding-left: 8%;
+    box-sizing: border-box  ;
+    overflow: hidden;
+}
+.nav ul{
+    border: 1px solid black;
+}
+.img1{
+    margin-top: -2px;
+    width: 55px;
+ 
+     
+}
+.img2{
+    margin-top: -2px;
+    width: 70px;
+    height: 88px;
+}
+.row .col-1{
+    margin-top:  32px;
+    border: 1px solid ;
+    width: 130px;
+    height: 140px;
+    padding: 22px;
+}
+.row .col-1 h3{
+    font-style:oblique;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin-top: -12px;
+}
+button{
+    width: 90px;
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 4px;
+    outline: none;
+    color: #fff;
+    transition: with 0.5s;
+align-items: center;
+display: flex;
+margin-top: 12px;
+margin-left: 26px;
+    background: linear-gradient(to right ,#fb5283,#ff3527);
+
+
+}
+button:hover{
+    display: flex;
+    width: 110px;
+align-items: center;
+  justify-content: space-between;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 60px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+.icom{
+    width: 34px;
+    cursor: pointer;
+    display: none;
+}
+nav{
+    flex: 1;
+    text-align: right;}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+   color: #000;
+  
+   font-size: 20px;
+   border: 1px solid black;
+   padding: 12px;
+   font-weight: 100;
+   border-radius: 2px;
+}
+
+.row .col-2{
+    margin-right:629px;
+    margin-top:  32px;
+    border: 1px solid ;
+  
+    height: 140px;
+    padding: 22px;
+ }
+  .cola-3{
+    margin-left:9px;
+    margin-top:  32px;
+    border: 1px solid ;
+ 
+    height: 140px;
+    padding: 22px;
+}
+ .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:  20px 0;
+
+ }
+ .row .col-2 h3{
+    font-style:oblique;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: -12px;
+}
+.container .h2{
+    font-size: 25px;
+    color: #707070;
+    font-weight: 100;
+    margin: 20px 0 10px;
+}
+.row .col-3 h3{
+    font-style:oblique;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: -12px;
+}
+
+
+
+@media only screen and (max-width:700px)  {    
+    nav ul{
+        width: 100%;
+        border: none;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+        background: linear-gradient(to right ,#fb5283,#ff3527);
+
+    }
+    nav ul li a{
+    
+       border: none;
+       color:white;
+    
+      
+    }
+    nav ul li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: block;
+      
+       
+     }.row .col-1{
+         margin-top: 83px;
+     }
+     .navbar{
+         margin-top: 15px;
+     }
+     .navbar .logo{
+         width: 44px;
+         margin-top: 11px;
+     }
+     .navbar .icom{
+       display: block;
+       width: 44px;
+       margin-top: -17px;
+    }
+    #ListNav{
+        overflow: hidden
+        ;
+        transition: 0.5s;
+    }
+    .row {
+      flex-direction: column;
+      margin-top: -32px;
+    
+    }
+    .row .col-1{
+        width: 180px;
+      
+        margin-top: 29px;
+    }
+    .row .col-2{
+        width: 180px;
+        margin-right: -3px;
+    }
+    .img2{
+        width: 77px;
+        margin-left: 40px;
+    }
+    .img1{
+        width: 59px;
+        height: 89px;
+        
+    }
+    button{
+margin-left: 50px;
+    }
+    .h2 h3{
+     margin-top:98px;
+     font-size: 19px;
+     text-align: center;
+    }
+}
