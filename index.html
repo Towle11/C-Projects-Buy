@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C# Projects Buy</title>
+    <link rel="stylesheet" href="syle.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="log.png" class="logo"> 
+            <nav>
+                <ul id="ListNav">
+                    <li><a href="">Updates</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">download</a></li>
+                </ul>
+            </nav>
+            <img src="File-explorer.png" class="icom" onclick="togle()">
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h2>C# Projects Buy</h2>
+                <h3>With Have Back-End </h3>
+                <h4>$6.25</h4>
+                <button type="button">Buy Now</button>
+            </div><div class="col-2">
+                <img src="c.png" class="controler">
+                <div class="color-box"></div>
+                
+            </div>
+        </div>
+    </div>
+    <script>
+        var menu=document.getElementById("ListNav");
+        menu.style.maxHeight="0px";
+        function togle(){
+            if(menu.style.maxHeight=="0px"){
+                menu.style.maxHeight="120px"
+            }
+            else{
+                menu.style.maxHeight="0px"
+            }
+        }
+    </script>
+</body>
+</html>
